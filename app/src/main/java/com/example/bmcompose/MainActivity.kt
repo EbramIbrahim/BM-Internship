@@ -30,7 +30,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             BMComposeTheme {
-                IncreaseCounter()
+                //IncreaseCounter()
+                ShowRegisterScreen()
             }
         }
     }
